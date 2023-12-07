@@ -19,7 +19,7 @@ body {
     --card-main-font: 400 18px/24px var(--main-font-family);
 
     --main-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
     --body-text-color: #fff;
     --hooder-main-color: #3f51b5;
     --header-sub-color: #2196f3;
@@ -34,7 +34,7 @@ body {
 .header {
     text-align: center;
     background-color: var(--hooder-main-color);
-}    
+}
 
 .header__container {
     padding: 15px;
@@ -47,7 +47,7 @@ body {
 .nav {
     display: flex;
     justify-content: space-around;
-    background-color: var( --header-sub-color);
+    background-color: var(--header-sub-color);
     padding: 10px;
 }
 
@@ -107,8 +107,6 @@ body {
     font: var(--card-title-font);
 }
 
-
-
 /* Section END*/
 
 /* Footer */
@@ -128,6 +126,6 @@ body {
 
 @media screen and (max-width: 1475px) {
     .products__container {
-    flex-wrap: wrap;
+        flex-wrap: wrap;
     }
 }
