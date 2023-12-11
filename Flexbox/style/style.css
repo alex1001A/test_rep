@@ -10,16 +10,6 @@ body {
     color: var(--body-text-color);
 }
 
-.wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.products {
-    flex-grow: 1;
-}
-
 /* Fonts */
 
 :root {
@@ -34,10 +24,19 @@ body {
     --hooder-main-color: #3f51b5;
     --header-sub-color: #2196f3;
     --nav-hover-color: #64b5f6;
-
 }
 
 /* Fonts END*/
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    flex-grow: 1;
+}
 
 /* Header */
 
