@@ -87,13 +87,92 @@ a {
 
 /* Aside */
 
+.main {
+    display: flex;
+}
+
 .aside {
-    margin: 0 55зч;
+    margin: 0 55px;
+    width: 450px;
+    background-color: var(--aside-bg-color);
+    border-radius: 30px;
+    padding: 50px 65px 385px;
 }
 
 .aside__container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start; 
 }
+
+.aside__container a {
+    color: var(--blue-font);
+    padding: 15px 0;
+    border-bottom: 1px solid var(--blue-font);
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.aside__container a:hover {
+    color: var(--nav-text-orange-color);
+    transform: scale(1.2);
+}
+
 /* Aside END*/
+
+.hero {
+    margin-top: 110px;
+    width: 850px;
+    padding: 0 10px;
+    
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+}
+
+.hero_item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.hero__img {
+    height: 370px;
+}
+
+.hero_item:nth-child(1) {
+    width: 100%;
+}
+
+.hero_item:nth-child(2) {
+    width: 47%;
+}
+
+.hero_item:nth-child(3) {
+    width: 47%;
+}
+
+.hero_item:nth-child(4) {
+    width: 47%;
+}
+
+.hero_item:nth-child(5) {
+    width: 47%;
+}
+
+.hero__button {
+    width: 100%;
+    padding: 25px;
+    background-color: var(--blue-font);
+    border: none;
+    border-radius: 10px; 
+    font: var(--hero-item-font);
+    color: var(--main-color);
+    cursor: pointer;
+}
